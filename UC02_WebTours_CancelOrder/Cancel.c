@@ -1,4 +1,4 @@
-Action()
+Cancel()
 {	
 	int i = 1;
 	lr_think_time(10);

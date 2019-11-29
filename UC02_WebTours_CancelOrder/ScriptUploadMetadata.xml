@@ -4,7 +4,7 @@
   <Protocol>Web - HTTP/HTML</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
-    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="Cancel.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>

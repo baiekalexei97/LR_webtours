@@ -24,7 +24,7 @@ Description=
 ScriptLocale=ru-RU
 [Actions]
 vuser_init=vuser_init.c
-Action=Action.c
+Cancel=Cancel.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -36,22 +36,22 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=1
-Action=1
+Cancel=1
 vuser_end=1
 [Recorded Actions]
 vuser_init=0
-Action=1
+Cancel=1
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
-Action=1
+Cancel=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
-Action=cci
+Cancel=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC1_TR01_Login__*delimiter*__UC01_TR02_CheckTickets__*delimiter*__UC01_TR03_CancelFlight__*delimiter*__UC01_TR04_logout"
+Order="UC1_TR01_Login__*delimiter*__UC01_TR04_logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -59,6 +59,4 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC1_TR01_Login=
-UC01_TR02_CheckTickets=
-UC01_TR03_CancelFlight=
 UC01_TR04_logout=

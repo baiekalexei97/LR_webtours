@@ -1,7 +1,7 @@
 [Profile Actions]
 MercIniTreeFather=""
 MercIniTreeSectionName="Profile Actions"
-Profile Actions name=vuser_init,Action,vuser_end
+Profile Actions name=vuser_init,Cancel,vuser_end
 [RunLogicEndRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicEndRoot"
@@ -53,9 +53,9 @@ RunLogicObjectKind="Action"
 [RunLogicRunRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicRunRoot"
-MercIniTreeSons="Action"
+MercIniTreeSons="Cancel"
 Name="Run"
-RunLogicActionOrder="Action"
+RunLogicActionOrder="Cancel"
 RunLogicActionType="VuserRun"
 RunLogicAfterPaceMax="90"
 RunLogicAfterPaceMin="60"
@@ -67,9 +67,9 @@ RunLogicPaceType="Asap"
 RunLogicRandomPaceMax="90"
 RunLogicRandomPaceMin="60"
 RunLogicRunMode="Sequential"
-[RunLogicRunRoot:Action]
+[RunLogicRunRoot:Cancel]
 MercIniTreeFather="RunLogicRunRoot"
-MercIniTreeSectionName="Action"
-Name="Action"
+MercIniTreeSectionName="Cancel"
+Name="Cancel"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
