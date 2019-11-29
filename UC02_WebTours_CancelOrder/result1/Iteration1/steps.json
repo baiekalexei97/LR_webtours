@@ -1,0 +1,14 @@
+[
+    {
+        "stepId": "STEP3",
+        "stepName": "Url: Itinerary Button",
+        "infFile": "t3.inf",
+        "time": 1575024826940
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Custom Request: itinerary.pl",
+        "infFile": "t4.inf",
+        "time": 1575024827195
+    }
+]

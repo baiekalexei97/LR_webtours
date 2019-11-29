@@ -1,0 +1,580 @@
+[API Trapper      (1f48:1270)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( 204: da0)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (2100: 61c)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2100: 978)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2100: 978)] Load Network Traffic Analyzers:
+[Network Analyzer (2100: 978)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2100: 978)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (2100: 978)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2100: 978)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (2100: 978)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (2100: 978)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2100: 978)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2100: 978)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2100: 8d4)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 978)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 978)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2100: 978)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Web Request      (2100: 8d4)] "GET /webtours/"   
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Client -> Server @ : 270 bytes (Service=HTTP)
+[Network Analyzer (2100: 978)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (2100: 978)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 978)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2100: 978)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 978)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (2100: 8d4)] "GET /webtours/header.html"   
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (2100: 8d4)]   (Sid:  2) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer (2100: 8d4)]   (Sid:  2) Client -> Server @ : 382 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /webtours/images/webtours.png"   
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Client -> Server @ : 375 bytes (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/home.html"   
+[Network Analyzer (2100: 8d4)]   (Sid:  2) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid:  2) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Server -> Client : 1748 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer (2100:1180)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:2080)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:16c8)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 2e0)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 4b4)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: a24)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (2100:1180)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2100:2080)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2100: 4b4)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2100: 2e0)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2100:16c8)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2100: a24)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2100: 738)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: 6f8)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100:193c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100:1020)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: 948)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100:21bc)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: 8d4)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (2100: 8d4)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (2100: b94)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 4b4)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: b94)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2100: 4b4)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (2100: 8d4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Client -> Server @ : 248 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Server -> Client : 2599 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 8112 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 7736 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2384 bytes  (Service=HTTP)
+[Network Analyzer (2100: b94)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: b94)] Request Connection: Remote Server @ 37.29.19.120:80   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 11032 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 1912 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16060 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 452 bytes  (Service=HTTP)
+[Net An. Error    (2100: 948)] SSLAccept(ssl_id = 224636760 = 0D63AF58) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100: 948)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100: 738)] SSLAccept(ssl_id = 224632368 = 0D639E30) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:193c)] SSLAccept(ssl_id = 224636272 = 0D63AD70) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100: 6f8)] SSLAccept(ssl_id = 224634320 = 0D63A5D0) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100: 738)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100:193c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100: 6f8)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100:21bc)] SSLAccept(ssl_id = 224637248 = 0D63B140) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1020)] SSLAccept(ssl_id = 224630416 = 0D639690) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:21bc)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100:1020)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100:1a60)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (2100:1a60)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (2100:1f00)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:1f00)] SSLAccept(ssl_id = 224636272 = 0D63AD70) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1f00)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100:1750)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (2100:1750)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2100:1624)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:1624)] SSLAccept(ssl_id = 224630416 = 0D639690) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1624)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100:1894)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (2100:1894)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (2100: be0)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100: be0)] SSLAccept(ssl_id = 224631392 = 0D639A60) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100: be0)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100: 938)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (2100: 938)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (2100:1ab0)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:1ab0)] SSLAccept(ssl_id = 224634320 = 0D63A5D0) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1ab0)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100: 8d4)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer ( 204: 794)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 204: 794)] Load Network Traffic Analyzers:
+[Network Analyzer ( 204: 794)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 204: 794)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 204: 794)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 204: 794)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 204: 794)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 204: 794)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 204: 794)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 204: 794)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 204:1e5c)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer ( 204: 794)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer ( 204: 794)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2100: 938)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer ( 204:2674)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 938)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 204:2674)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 204:261c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100:1458)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer ( 204:1420)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (2100: 8d4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Client -> Server @ : 246 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Server -> Client : 2599 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Client -> Server @ : 289 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Server -> Client : 2599 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 4204 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 4204 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 5680 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 4220 bytes  (Service=HTTP)
+[Net An. Error    (2100:1458)] SSLAccept(ssl_id = 128555968 = 07A99BC0) Failed, ctx = 0D639A60, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1458)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100: 8d4)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer ( 204:1f58)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer ( 204:1358)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer ( 204:1f58)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 204:1e5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer ( 204:1358)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( 204:1e5c)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( 204:1e5c)]   (Sid:  4) Client -> Server @ : 246 bytes (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  4) Server -> Client : 2599 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 8112 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 9556 bytes  (Service=HTTP)
+[Web Request      ( 204:1e5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Server -> Client : 4204 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1f58)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer ( 204:1f58)] Request Connection: Remote Server @ 37.29.19.115:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 204:1e5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 12492 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 812 bytes  (Service=HTTP)
+[Web Request      ( 204:1e5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Server -> Client : 8112 bytes  (Service=HTTP)
+[Net An. Error    ( 204:261c)] SSLAccept(ssl_id = 2297724509152 = 00000216FB0D9BE0) Failed, ctx = 00000216FB0D95F0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 204:261c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 204:1420)] SSLAccept(ssl_id = 2297672438880 = 00000216F7F31460) Failed, ctx = 00000216FB0D95F0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 204:1420)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 204:1e5c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 204:1e5c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 204:1888)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer ( 204:1888)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 204:1d10)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer ( 204:1d10)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 204:1e5c)] "GET /IE11/1478281996/iecompatviewlist.xml"   
+[Network Analyzer ( 204:1e5c)]   (Sid:  6) Client -> Server @ : 486 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  6) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  6) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  6) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 204:1e5c)]   (Sid:  6) Server -> Client : 9952 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent UC1_TR01_Login [Network Analyzer (2100: 8d4)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (2100: 938)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 938)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (2100: 8d4)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Client -> Server @ : 575 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (2100: 938)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 938)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (2100: 8d4)]   (Sid: 20) Client -> Server @ : 475 bytes (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer (2100: 2f4)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1750)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1894)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1a60)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:16c8)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1750)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (2100: 8d4)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid: 21) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer (2100:1894)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid: 21) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid: 21) Client -> Server @ : 504 bytes (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid: 22) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer (2100:1a60)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid: 21) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 22) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer (2100: 2f4)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid: 20) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (2100:1e48)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2100:16c8)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (2100:1894)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1e48)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (2100:1894)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (2100:1b04)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (2100: 8d4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Client -> Server @ : 248 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Server -> Client : 2599 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Client -> Server @ : 291 bytes (Service=HTTP)
+[Network Analyzer (2100:27ec)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Server -> Client : 2599 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2384 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2100:1168)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2384 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2400 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2400 bytes  (Service=HTTP)
+[Network Analyzer (2100:27d8)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:1b04)] SSLAccept(ssl_id = 347274248 = 14B2FC08) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:27ec)] SSLAccept(ssl_id = 347271320 = 14B2F098) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1b04)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100:27ec)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100:1168)] SSLAccept(ssl_id = 347274736 = 14B2FDF0) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1168)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100:1a60)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Net An. Error    (2100:27d8)] SSLAccept(ssl_id = 347270344 = 14B2ECC8) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:27d8)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100: 8d4)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (2100:1a60)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (2100:1844)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:1844)] SSLAccept(ssl_id = 347272296 = 14B2F468) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1844)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100:1750)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (2100:1750)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (2100:1cd8)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:1cd8)] SSLAccept(ssl_id = 347268880 = 14B2E710) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1cd8)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100: 8d4)]   (Sid: 29) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent UC1_TR01_Login [Network Analyzer (2100: 8d4)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (2100: 8d4)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (2100: 8d4)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (2100: 8d4)]   (Sid: 20) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC01_TR02_CheckTickets [Network Analyzer (2100:1750)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1750)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (2100: 8d4)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (2100: 2f4)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 2f4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Client -> Server @ : 502 bytes (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 31) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2100:1750)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 31) Server -> Client : 4235 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Client -> Server @ : 514 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 31) Server -> Client : 3190 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid: 31) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer (2100:16c8)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:16c8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (2100:1e48)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1a60)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Web Request      (2100: 8d4)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid: 32) Client -> Server @ : 502 bytes (Service=HTTP)
+[Network Analyzer (2100:1a60)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (2100:16c8)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 32) Server -> Client : 1129 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (2100: 8d4)]   (Sid: 33) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 33) Server -> Client : 1040 bytes  (Service=HTTP)
+[Network Analyzer (2100:16c8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid: 31) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (2100:1750)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (2100:14e8)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1e48)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (2100:16c8)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:14e8)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (2100:16c8)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (2100: e20)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (2100: 8d4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Client -> Server @ : 248 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Server -> Client : 2599 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Client -> Server @ : 291 bytes (Service=HTTP)
+[Network Analyzer (2100:1374)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Server -> Client : 2599 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2384 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2100: d58)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 11) Server -> Client : 2384 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2400 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 13) Server -> Client : 2400 bytes  (Service=HTTP)
+[Network Analyzer (2100:108c)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:1374)] SSLAccept(ssl_id = 348083528 = 14BF5548) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100: e20)] SSLAccept(ssl_id = 348084992 = 14BF5B00) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1374)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100: e20)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100: d58)] SSLAccept(ssl_id = 348078648 = 14BF4238) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100: d58)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2100:108c)] SSLAccept(ssl_id = 348081088 = 14BF4BC0) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:108c)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100:1a60)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (2100:1a60)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (2100:21d0)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:21d0)] SSLAccept(ssl_id = 348079136 = 14BF4420) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:21d0)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100:1750)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer (2100:1750)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (2100:1f3c)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:1f3c)] SSLAccept(ssl_id = 348079624 = 14BF4608) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:1f3c)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100: 8d4)]   (Sid: 40) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent UC01_TR02_CheckTickets [Network Analyzer (2100: 8d4)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer (2100: 8d4)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (2100: 8d4)]   (Sid: 33) Connection Terminated (by Server)
+[Network Analyzer (2100: 8d4)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer ( 204:1e5c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2100: 8d4)]   (Sid: 34) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent UC01_TR03_CancelFlight [Network Analyzer (2100:1750)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 938)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1750)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      (2100: 8d4)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (2100: 8d4)]   (Sid: 41) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer (2100: 938)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid: 41) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 41) Server -> Client : 2059 bytes  (Service=HTTP)
+[Network Analyzer (2100:1a60)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1894)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1a60)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (2100:1894)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (2100: bcc)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100: bcc)] SSLAccept(ssl_id = 348085480 = 14BF5CE8) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100: bcc)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100: 8d4)]   (Sid: 43) Connection Terminated (by Client)
+[Network Analyzer (2100:231c)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2100:231c)] SSLAccept(ssl_id = 348078648 = 14BF4238) Failed, ctx = 0D63A7B8, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2100:231c)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2100: 8d4)]   (Sid: 44) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent UC01_TR03_CancelFlight [Network Analyzer (2100: 8d4)]   (Sid: 41) Connection Terminated (by Server)
+[Network Analyzer ( 204:1e5c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( 204:1e5c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 204:1e5c)]   (Sid:  3) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent UC01_TR04_logout [Network Analyzer (2100: 8d4)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (2100:1750)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 938)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1750)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 45)  PROXIED!
+[Web Request      (2100: 8d4)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (2100: 8d4)]   (Sid: 45) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer (2100: 938)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (2100: 8d4)]   (Sid: 45) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 45) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2100: 8d4)]   (Sid: 45) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      (2100: 8d4)] "GET /WebTours/home.html"   
+[Network Analyzer (2100: 8d4)]   (Sid: 46) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 46) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (2100:1a60)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: a24)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 2f4)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100: 8d4)]   (Sid: 45) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer (2100: 8d4)]   (Sid: 45) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2100: 278)] Address lookup for Msk2-Learning-09 = 10.0.75.1
+[Network Analyzer (2100:1a60)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (2100: a24)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (2100: 2f4)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (2100: 278)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (2100: 45c)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: 8d4)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (2100: 388)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100:18a4)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2100: d00)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[User action                 ] EndTransactionEvent UC01_TR04_logout [Network Analyzer (2100: 8d4)]   (Sid: 46) Connection Terminated (by Server)
+[Network Analyzer (2100: 8d4)]   (Sid: 45) Connection Terminated (by Server)

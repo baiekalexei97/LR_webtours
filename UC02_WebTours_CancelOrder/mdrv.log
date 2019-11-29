@@ -1,0 +1,159 @@
+Virtual User Script started at: 29.11.2019 13:53:46
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\student\Documents\UC02_WebTours_CancelOrder\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(4): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(4): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+vuser_init.c(9): web_url("webtours") started  	[MsgId: MMSG-26355]
+vuser_init.c(9): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_init.c(9): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_init.c(9): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/"  	[MsgId: MMSG-26574]
+vuser_init.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/"  	[MsgId: MMSG-26574]
+vuser_init.c(9): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+vuser_init.c(9): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+vuser_init.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+vuser_init.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+vuser_init.c(9): Notify: Saving Parameter "userSession1 = 127584.028027542zfzczADpttVzzzzHDQDHfpzcAzf".
+vuser_init.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(9): web_url("webtours") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(21): Notify: Transaction "UC1_TR01_Login" started.
+vuser_init.c(23): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+vuser_init.c(23): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_init.c(23): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_init.c(23): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_init.c(23): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_init.c(23): Notify: Parameter Substitution: parameter "userSession1" =  "127584.028027542zfzczADpttVzzzzHDQDHfpzcAzf"
+vuser_init.c(23): Notify: Parameter Substitution: parameter "Login" =  "jojo"
+vuser_init.c(23): Notify: Next row for parameter Password = 1 [table  = Password].
+vuser_init.c(23): Notify: Parameter Substitution: parameter "Password" =  "bean"
+vuser_init.c(23): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+vuser_init.c(23): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+vuser_init.c(23): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(23): web_submit_data("login.pl") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(40): Notify: Transaction "UC1_TR01_Login" ended with a "Pass" status (Duration: 0,1839 Wasted Time: 0,0419).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(12): Notify: Transaction "UC01_TR02_CheckTickets" started.
+Action.c(14): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action.c(14): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Action.c(14): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Action.c(14): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Action.c(14): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Action.c(14): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(14): Detected non-resource "http://127.0.0.1:1080/cgi-bin/itinerary.pl" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(14): Resource "http://127.0.0.1:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(14): Found resource "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(14): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(14): Notify: Saving Parameter "flightIdArr_1 = 10020-812-JB".
+Action.c(14): Notify: Saving Parameter "flightIdArr_2 = 1346-157-JB".
+Action.c(14): Notify: Saving Parameter "flightIdArr_3 = 251449311-2340-JB".
+Action.c(14): Notify: Saving Parameter "flightIdArr_4 = 251468253-3142-JB".
+Action.c(14): Notify: Saving Parameter "flightIdArr_5 = 251471883-3912-JB".
+Action.c(14): Notify: Saving Parameter "flightIdArr_6 = 251450090-4649-JB".
+Action.c(14): Notify: Saving Parameter "flightIdArr_7 = 251447873-5429-JB".
+Action.c(14): Found resource "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(14): Notify: Saving Parameter "flightIdArr_count = 7".
+Action.c(14): web_url("Itinerary Button") was successful, 14441 body bytes, 1913 header bytes, 51 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(24): Notify: Transaction "UC01_TR02_CheckTickets" ended with a "Pass" status (Duration: 0.2200 Wasted Time: 0.0479).
+Action.c(28): Notify: Saving Parameter "Body = 1=on&".
+Action.c(30): Notify: Parameter Substitution: parameter "flightIdArr_1" =  "10020-812-JB"
+Action.c(30): Notify: Saving Parameter "flightId = 10020-812-JB".
+Action.c(31): Notify: Saving Parameter ".cgifields = 1".
+Action.c(32): Notify: Parameter Substitution: parameter "Body" =  "1=on&"
+Action.c(32): Notify: Parameter Substitution: parameter "flightId" =  "10020-812-JB"
+Action.c(32): Notify: Parameter Substitution: parameter ".cgifields" =  "1"
+Action.c(32): Notify: Saving Parameter "Body = 1=on&flightID=10020-812-JB&.cgifields=1&".
+Action.c(34): Notify: Parameter Substitution: parameter "flightIdArr_count" =  "7"
+Action.c(30): Notify: Parameter Substitution: parameter "flightIdArr_2" =  "1346-157-JB"
+Action.c(30): Notify: Saving Parameter "flightId = 1346-157-JB".
+Action.c(31): Notify: Saving Parameter ".cgifields = 2".
+Action.c(32): Notify: Parameter Substitution: parameter "Body" =  "1=on&flightID=10020-812-JB&.cgifields=1&"
+Action.c(32): Notify: Parameter Substitution: parameter "flightId" =  "1346-157-JB"
+Action.c(32): Notify: Parameter Substitution: parameter ".cgifields" =  "2"
+Action.c(32): Notify: Saving Parameter "Body = 1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&".
+Action.c(34): Notify: Parameter Substitution: parameter "flightIdArr_count" =  "7"
+Action.c(30): Notify: Parameter Substitution: parameter "flightIdArr_3" =  "251449311-2340-JB"
+Action.c(30): Notify: Saving Parameter "flightId = 251449311-2340-JB".
+Action.c(31): Notify: Saving Parameter ".cgifields = 3".
+Action.c(32): Notify: Parameter Substitution: parameter "Body" =  "1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&"
+Action.c(32): Notify: Parameter Substitution: parameter "flightId" =  "251449311-2340-JB"
+Action.c(32): Notify: Parameter Substitution: parameter ".cgifields" =  "3"
+Action.c(32): Notify: Saving Parameter "Body = 1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&".
+Action.c(34): Notify: Parameter Substitution: parameter "flightIdArr_count" =  "7"
+Action.c(30): Notify: Parameter Substitution: parameter "flightIdArr_4" =  "251468253-3142-JB"
+Action.c(30): Notify: Saving Parameter "flightId = 251468253-3142-JB".
+Action.c(31): Notify: Saving Parameter ".cgifields = 4".
+Action.c(32): Notify: Parameter Substitution: parameter "Body" =  "1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&"
+Action.c(32): Notify: Parameter Substitution: parameter "flightId" =  "251468253-3142-JB"
+Action.c(32): Notify: Parameter Substitution: parameter ".cgifields" =  "4"
+Action.c(32): Notify: Saving Parameter "Body = 1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&".
+Action.c(34): Notify: Parameter Substitution: parameter "flightIdArr_count" =  "7"
+Action.c(30): Notify: Parameter Substitution: parameter "flightIdArr_5" =  "251471883-3912-JB"
+Action.c(30): Notify: Saving Parameter "flightId = 251471883-3912-JB".
+Action.c(31): Notify: Saving Parameter ".cgifields = 5".
+Action.c(32): Notify: Parameter Substitution: parameter "Body" =  "1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&"
+Action.c(32): Notify: Parameter Substitution: parameter "flightId" =  "251471883-3912-JB"
+Action.c(32): Notify: Parameter Substitution: parameter ".cgifields" =  "5"
+Action.c(32): Notify: Saving Parameter "Body = 1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&flightID=251471883-3912-JB&.cgifields=5&".
+Action.c(34): Notify: Parameter Substitution: parameter "flightIdArr_count" =  "7"
+Action.c(30): Notify: Parameter Substitution: parameter "flightIdArr_6" =  "251450090-4649-JB"
+Action.c(30): Notify: Saving Parameter "flightId = 251450090-4649-JB".
+Action.c(31): Notify: Saving Parameter ".cgifields = 6".
+Action.c(32): Notify: Parameter Substitution: parameter "Body" =  "1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&flightID=251471883-3912-JB&.cgifields=5&"
+Action.c(32): Notify: Parameter Substitution: parameter "flightId" =  "251450090-4649-JB"
+Action.c(32): Notify: Parameter Substitution: parameter ".cgifields" =  "6"
+Action.c(32): Notify: Saving Parameter "Body = 1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&flightID=251471883-3912-JB&.cgifields=5&flightID=251450090-4649-JB&.cgifields=6&".
+Action.c(34): Notify: Parameter Substitution: parameter "flightIdArr_count" =  "7"
+Action.c(30): Notify: Parameter Substitution: parameter "flightIdArr_7" =  "251447873-5429-JB"
+Action.c(30): Notify: Saving Parameter "flightId = 251447873-5429-JB".
+Action.c(31): Notify: Saving Parameter ".cgifields = 7".
+Action.c(32): Notify: Parameter Substitution: parameter "Body" =  "1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&flightID=251471883-3912-JB&.cgifields=5&flightID=251450090-4649-JB&.cgifields=6&"
+Action.c(32): Notify: Parameter Substitution: parameter "flightId" =  "251447873-5429-JB"
+Action.c(32): Notify: Parameter Substitution: parameter ".cgifields" =  "7"
+Action.c(32): Notify: Saving Parameter "Body = 1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&flightID=251471883-3912-JB&.cgifields=5&flightID=251450090-4649-JB&.cgifields=6&flightID=251447873-5429-JB&.cgifields=7&".
+Action.c(34): Notify: Parameter Substitution: parameter "flightIdArr_count" =  "7"
+Action.c(36): Notify: Parameter Substitution: parameter "Body" =  "1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&flightID=251471883-3912-JB&.cgifields=5&flightID=251450090-4649-JB&.cgifields=6&flightID=251447873-5429-JB&.cgifields=7&"
+Action.c(36): Notify: Saving Parameter "Body = 1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&flightID=251471883-3912-JB&.cgifields=5&flightID=251450090-4649-JB&.cgifields=6&flightID=251447873-5429-JB&.cgifields=7&removeFlights.x=36&removeFlights.y=8".
+Action.c(38): Notify: Transaction "UC01_TR03_CancelFlight" started.
+Action.c(40): web_custom_request("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(40): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Action.c(40): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Action.c(40): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Action.c(40): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Action.c(40): Notify: Parameter Substitution: parameter "Body" =  "1=on&flightID=10020-812-JB&.cgifields=1&flightID=1346-157-JB&.cgifields=2&flightID=251449311-2340-JB&.cgifields=3&flightID=251468253-3142-JB&.cgifields=4&flightID=251471883-3912-JB&.cgifields=5&flightID=251450090-4649-JB&.cgifields=6&flightID=251447873-5429-JB&.cgifields=7&removeFlights.x=36&removeFlights.y=8"
+Action.c(40): Resource "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): web_custom_request("itinerary.pl") was successful, 8268 body bytes, 255 header bytes, 26 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(51): Notify: Transaction "UC01_TR03_CancelFlight" ended with a "Pass" status (Duration: 0.1319 Wasted Time: 0.0264).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(3): Notify: Transaction "UC01_TR04_logout" started.
+vuser_end.c(5): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+vuser_end.c(5): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_end.c(5): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_end.c(5): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_end.c(5): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_end.c(5): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+vuser_end.c(5): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+vuser_end.c(5): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+vuser_end.c(5): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_end.c(15): Notify: Transaction "UC01_TR04_logout" ended with a "Pass" status (Duration: 0.1616 Wasted Time: 0.0319).
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 8136), ended OK."

@@ -1,0 +1,17 @@
+[DATA_POINT]
+1="mic_recv"
+2="HTTP_200"
+3="tcp_connection_count"
+4="tcp_connect"
+5="tcp_shutdown"
+[END_TRANSACTION]
+1="http://127.0.0.1:1080/webtours/"
+2="http://127.0.0.1:1080/webtours/header.html"
+3="http://127.0.0.1:1080/webtours/images/hp_logo.png"
+4="http://127.0.0.1:1080/webtours/images/webtours.png"
+5="http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"
+6="http://127.0.0.1:1080/WebTours/home.html"
+7="http://127.0.0.1:1080/WebTours/images/mer_login.gif"
+8="http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"
+10="vuser_init_Transaction"
+9="webtours_vuser_init_9"

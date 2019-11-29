@@ -1,0 +1,32 @@
+[Scenario]
+Product=HPE LoadRunner Controller
+Version=12.55.0.0
+Path=Scenario1
+Subject=
+Result_file=c:\users\student\documents\uc01_webtours_createorder\res1\res1.lrr
+Description=
+ResultName=res1
+Time_Zone=-10800
+Start_time=1573564089
+Daylight_Bias=0
+Stop_time=1573564138
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By command
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:30 (HH:MM:SS); Run for 00:20:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+[Scripts]
+UC01_WebTours_CreateOrder=C:\Users\student\Documents\UC01_WebTours_CreateOrder\UC01_WebTours_CreateOrder.usr
+[Scripts_types]
+UC01_WebTours_CreateOrder=Multi+QTWeb

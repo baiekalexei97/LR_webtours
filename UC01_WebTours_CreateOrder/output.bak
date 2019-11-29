@@ -1,0 +1,330 @@
+Virtual User Script started at: 29.11.2019 13:56:07
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\student\Documents\UC01_WebTours_CreateOrder\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(4): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(4): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+vuser_init.c(9): web_url("webtours") started  	[MsgId: MMSG-26355]
+vuser_init.c(9): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_init.c(9): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_init.c(9): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/"  	[MsgId: MMSG-26574]
+vuser_init.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/"  	[MsgId: MMSG-26574]
+vuser_init.c(9): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+vuser_init.c(9): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+vuser_init.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+vuser_init.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+vuser_init.c(9): Notify: Saving Parameter "userSession1 = 127584.03944917zfzczAtpAcQVzzzHDQDHfpzctVHf".
+vuser_init.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(9): web_url("webtours") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(19): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(19): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(21): web_add_header("UA-CPU") started  	[MsgId: MMSG-26355]
+vuser_init.c(21): web_add_header("UA-CPU") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(26): Notify: Transaction "UC01_TR01_Login" started.
+vuser_init.c(28): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(31): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+vuser_init.c(31): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_init.c(31): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_init.c(31): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_init.c(31): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_init.c(31): Notify: Parameter Substitution: parameter "userSession1" =  "127584.03944917zfzczAtpAcQVzzzHDQDHfpzctVHf"
+vuser_init.c(31): Notify: Parameter Substitution: parameter "Login" =  "jojo"
+vuser_init.c(31): Notify: Next row for parameter Password = 1 [table  = Password].
+vuser_init.c(31): Notify: Parameter Substitution: parameter "Password" =  "bean"
+vuser_init.c(31): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+vuser_init.c(31): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+vuser_init.c(31): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(31): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(31): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(31): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(31): Registered web_reg_find successful for "Text=, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(31): web_submit_data("login.pl") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(48): Notify: Transaction "UC01_TR01_Login" ended with a "Pass" status (Duration: 0.1870 Wasted Time: 0.0407).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Search.
+Search.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Search.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Search.c(11): web_reg_save_param started  	[MsgId: MMSG-26355]
+Search.c(11): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Search.c(18): Notify: Transaction "UC01_TR02_Flights" started.
+Search.c(20): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Search.c(20): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(20): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(20): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(20): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(20): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Search.c(20): Detected non-resource "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Search.c(20): Found resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Notify: Saving Parameter "Cities_1 = Denver".
+Search.c(20): Notify: Saving Parameter "Cities_2 = Frankfurt".
+Search.c(20): Notify: Saving Parameter "Cities_3 = London".
+Search.c(20): Notify: Saving Parameter "Cities_4 = Los Angeles".
+Search.c(20): Notify: Saving Parameter "Cities_5 = Paris".
+Search.c(20): Notify: Saving Parameter "Cities_6 = Portland".
+Search.c(20): Notify: Saving Parameter "Cities_7 = San Francisco".
+Search.c(20): Notify: Saving Parameter "Cities_8 = Seattle".
+Search.c(20): Notify: Saving Parameter "Cities_9 = Sydney".
+Search.c(20): Notify: Saving Parameter "Cities_10 = Zurich".
+Search.c(20): Notify: Saving Parameter "Cities_11 = Denver".
+Search.c(20): Notify: Saving Parameter "Cities_12 = Frankfurt".
+Search.c(20): Notify: Saving Parameter "Cities_13 = London".
+Search.c(20): Notify: Saving Parameter "Cities_14 = Los Angeles".
+Search.c(20): Notify: Saving Parameter "Cities_15 = Paris".
+Search.c(20): Notify: Saving Parameter "Cities_16 = Portland".
+Search.c(20): Notify: Saving Parameter "Cities_17 = San Francisco".
+Search.c(20): Notify: Saving Parameter "Cities_18 = Seattle".
+Search.c(20): Notify: Saving Parameter "Cities_19 = Sydney".
+Search.c(20): Notify: Saving Parameter "Cities_20 = Zurich".
+Search.c(20): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Search.c(20): Registered web_reg_find successful for "Text=>No. of Passengers : </td> <td>" (count=1)  	[MsgId: MMSG-26364]
+Search.c(20): Notify: Saving Parameter "Cities_count = 20".
+Search.c(20): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Search.c(30): Notify: Transaction "UC01_TR02_Flights" ended with a "Pass" status (Duration: 0.1983 Wasted Time: 0.0390).
+Search.c(32): Notify: Parameter Substitution: parameter "Cities_count" =  "20"
+Search.c(32): Notify: Parameter Substitution: parameter "Cities_18" =  "Seattle"
+Search.c(33): Notify: Parameter Substitution: parameter "Cities_count" =  "20"
+Search.c(33): Notify: Parameter Substitution: parameter "Cities_1" =  "Denver"
+Search.c(38): Notify: Saving Parameter "City1 = Seattle".
+Search.c(39): Notify: Saving Parameter "City2 = Denver".
+Search.c(43): web_reg_find started  	[MsgId: MMSG-26355]
+Search.c(43): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Search.c(46): web_reg_save_param started  	[MsgId: MMSG-26355]
+Search.c(46): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Search.c(52): Notify: Transaction "UC01_TR03_Find_Flight" started.
+Search.c(54): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Search.c(54): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(54): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(54): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(54): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(54): Notify: Parameter Substitution: parameter "City1" =  "Seattle"
+Search.c(54): Notify: Parameter Substitution: parameter "City2" =  "Denver"
+Search.c(54): Notify: Saving Parameter "OutboundFlight_1 = 700;424;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_2 = 701;377;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_3 = 702;401;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_4 = 703;347;11/12/2019".
+Search.c(54): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(54): Registered web_reg_find successful for "Text=Flight departing from <B>" (count=1)  	[MsgId: MMSG-26364]
+Search.c(54): Notify: Saving Parameter "OutboundFlight_count = 4".
+Search.c(54): web_submit_data("reservations.pl") was successful, 2443 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Search.c(78): Notify: Transaction "UC01_TR03_Find_Flight" ended with a "Pass" status (Duration: 0.1309 Wasted Time: 0.0260).
+Ending action Search.
+Starting action Search.
+Search.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Search.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Search.c(11): web_reg_save_param started  	[MsgId: MMSG-26355]
+Search.c(11): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Search.c(18): Notify: Transaction "UC01_TR02_Flights" started.
+Search.c(20): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Search.c(20): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(20): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(20): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(20): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(20): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Search.c(20): Detected non-resource "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Notify: Saving Parameter "Cities_1 = Denver".
+Search.c(20): Notify: Saving Parameter "Cities_2 = Frankfurt".
+Search.c(20): Notify: Saving Parameter "Cities_3 = London".
+Search.c(20): Notify: Saving Parameter "Cities_4 = Los Angeles".
+Search.c(20): Notify: Saving Parameter "Cities_5 = Paris".
+Search.c(20): Notify: Saving Parameter "Cities_6 = Portland".
+Search.c(20): Notify: Saving Parameter "Cities_7 = San Francisco".
+Search.c(20): Notify: Saving Parameter "Cities_8 = Seattle".
+Search.c(20): Notify: Saving Parameter "Cities_9 = Sydney".
+Search.c(20): Notify: Saving Parameter "Cities_10 = Zurich".
+Search.c(20): Notify: Saving Parameter "Cities_11 = Denver".
+Search.c(20): Notify: Saving Parameter "Cities_12 = Frankfurt".
+Search.c(20): Notify: Saving Parameter "Cities_13 = London".
+Search.c(20): Notify: Saving Parameter "Cities_14 = Los Angeles".
+Search.c(20): Notify: Saving Parameter "Cities_15 = Paris".
+Search.c(20): Notify: Saving Parameter "Cities_16 = Portland".
+Search.c(20): Notify: Saving Parameter "Cities_17 = San Francisco".
+Search.c(20): Notify: Saving Parameter "Cities_18 = Seattle".
+Search.c(20): Notify: Saving Parameter "Cities_19 = Sydney".
+Search.c(20): Notify: Saving Parameter "Cities_20 = Zurich".
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Registered web_reg_find successful for "Text=>No. of Passengers : </td> <td>" (count=1)  	[MsgId: MMSG-26364]
+Search.c(20): Notify: Saving Parameter "Cities_count = 20".
+Search.c(20): web_url("Search Flights Button") was successful, 6344 body bytes, 725 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Search.c(30): Notify: Transaction "UC01_TR02_Flights" ended with a "Pass" status (Duration: 0.1600 Wasted Time: 0.0380).
+Search.c(32): Notify: Parameter Substitution: parameter "Cities_count" =  "20"
+Search.c(32): Notify: Parameter Substitution: parameter "Cities_16" =  "Portland"
+Search.c(33): Notify: Parameter Substitution: parameter "Cities_count" =  "20"
+Search.c(33): Notify: Parameter Substitution: parameter "Cities_9" =  "Sydney"
+Search.c(38): Notify: Saving Parameter "City1 = Portland".
+Search.c(39): Notify: Saving Parameter "City2 = Sydney".
+Search.c(43): web_reg_find started  	[MsgId: MMSG-26355]
+Search.c(43): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Search.c(46): web_reg_save_param started  	[MsgId: MMSG-26355]
+Search.c(46): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Search.c(52): Notify: Transaction "UC01_TR03_Find_Flight" started.
+Search.c(54): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Search.c(54): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(54): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(54): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(54): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(54): Notify: Parameter Substitution: parameter "City1" =  "Portland"
+Search.c(54): Notify: Parameter Substitution: parameter "City2" =  "Sydney"
+Search.c(54): Notify: Saving Parameter "OutboundFlight_1 = 580;1167;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_2 = 581;1040;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_3 = 582;1103;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_4 = 583;955;11/12/2019".
+Search.c(54): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(54): Registered web_reg_find successful for "Text=Flight departing from <B>" (count=1)  	[MsgId: MMSG-26364]
+Search.c(54): Notify: Saving Parameter "OutboundFlight_count = 4".
+Search.c(54): web_submit_data("reservations.pl") was successful, 2451 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Search.c(78): Notify: Transaction "UC01_TR03_Find_Flight" ended with a "Pass" status (Duration: 0.1313 Wasted Time: 0.0257).
+Ending action Search.
+Starting action Search.
+Search.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Search.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Search.c(11): web_reg_save_param started  	[MsgId: MMSG-26355]
+Search.c(11): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Search.c(18): Notify: Transaction "UC01_TR02_Flights" started.
+Search.c(20): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Search.c(20): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(20): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(20): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(20): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(20): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Search.c(20): Detected non-resource "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Notify: Saving Parameter "Cities_1 = Denver".
+Search.c(20): Notify: Saving Parameter "Cities_2 = Frankfurt".
+Search.c(20): Notify: Saving Parameter "Cities_3 = London".
+Search.c(20): Notify: Saving Parameter "Cities_4 = Los Angeles".
+Search.c(20): Notify: Saving Parameter "Cities_5 = Paris".
+Search.c(20): Notify: Saving Parameter "Cities_6 = Portland".
+Search.c(20): Notify: Saving Parameter "Cities_7 = San Francisco".
+Search.c(20): Notify: Saving Parameter "Cities_8 = Seattle".
+Search.c(20): Notify: Saving Parameter "Cities_9 = Sydney".
+Search.c(20): Notify: Saving Parameter "Cities_10 = Zurich".
+Search.c(20): Notify: Saving Parameter "Cities_11 = Denver".
+Search.c(20): Notify: Saving Parameter "Cities_12 = Frankfurt".
+Search.c(20): Notify: Saving Parameter "Cities_13 = London".
+Search.c(20): Notify: Saving Parameter "Cities_14 = Los Angeles".
+Search.c(20): Notify: Saving Parameter "Cities_15 = Paris".
+Search.c(20): Notify: Saving Parameter "Cities_16 = Portland".
+Search.c(20): Notify: Saving Parameter "Cities_17 = San Francisco".
+Search.c(20): Notify: Saving Parameter "Cities_18 = Seattle".
+Search.c(20): Notify: Saving Parameter "Cities_19 = Sydney".
+Search.c(20): Notify: Saving Parameter "Cities_20 = Zurich".
+Search.c(20): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(20): Registered web_reg_find successful for "Text=>No. of Passengers : </td> <td>" (count=1)  	[MsgId: MMSG-26364]
+Search.c(20): Notify: Saving Parameter "Cities_count = 20".
+Search.c(20): web_url("Search Flights Button") was successful, 6344 body bytes, 725 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Search.c(30): Notify: Transaction "UC01_TR02_Flights" ended with a "Pass" status (Duration: 0.1690 Wasted Time: 0.0376).
+Search.c(32): Notify: Parameter Substitution: parameter "Cities_count" =  "20"
+Search.c(32): Notify: Parameter Substitution: parameter "Cities_13" =  "London"
+Search.c(33): Notify: Parameter Substitution: parameter "Cities_count" =  "20"
+Search.c(33): Notify: Parameter Substitution: parameter "Cities_11" =  "Denver"
+Search.c(38): Notify: Saving Parameter "City1 = London".
+Search.c(39): Notify: Saving Parameter "City2 = Denver".
+Search.c(43): web_reg_find started  	[MsgId: MMSG-26355]
+Search.c(43): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Search.c(46): web_reg_save_param started  	[MsgId: MMSG-26355]
+Search.c(46): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Search.c(52): Notify: Transaction "UC01_TR03_Find_Flight" started.
+Search.c(54): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Search.c(54): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(54): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(54): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Search.c(54): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Search.c(54): Notify: Parameter Substitution: parameter "City1" =  "London"
+Search.c(54): Notify: Parameter Substitution: parameter "City2" =  "Denver"
+Search.c(54): Notify: Saving Parameter "OutboundFlight_1 = 200;491;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_2 = 201;437;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_3 = 202;464;11/12/2019".
+Search.c(54): Notify: Saving Parameter "OutboundFlight_4 = 203;401;11/12/2019".
+Search.c(54): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Search.c(54): Registered web_reg_find successful for "Text=Flight departing from <B>" (count=1)  	[MsgId: MMSG-26364]
+Search.c(54): Notify: Saving Parameter "OutboundFlight_count = 4".
+Search.c(54): web_submit_data("reservations.pl") was successful, 2441 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Search.c(78): Notify: Transaction "UC01_TR03_Find_Flight" ended with a "Pass" status (Duration: 0.1559 Wasted Time: 0.0263).
+Ending action Search.
+Starting action Order.
+Order.c(3): Notify: Parameter Substitution: parameter "OutboundFlight_count" =  "4"
+Order.c(3): Notify: Parameter Substitution: parameter "OutboundFlight_2" =  "201;437;11/12/2019"
+Order.c(3): Notify: Saving Parameter "flightVal = 201;437;11/12/2019".
+Order.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Order.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Order.c(10): Notify: Transaction "UC01_TR04_Select_Flight" started.
+Order.c(12): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Order.c(12): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Order.c(12): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Order.c(12): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Order.c(12): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Order.c(12): Notify: Parameter Substitution: parameter "flightVal" =  "201;437;11/12/2019"
+Order.c(12): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Order.c(12): Registered web_reg_find successful for "Text=Total for 1 ticket(s) is = $" (count=1)  	[MsgId: MMSG-26364]
+Order.c(12): web_submit_data("reservations.pl_2") was successful, 2703 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Order.c(30): Notify: Transaction "UC01_TR04_Select_Flight" ended with a "Pass" status (Duration: 0.1349 Wasted Time: 0.0254).
+Order.c(32): web_reg_find started  	[MsgId: MMSG-26355]
+Order.c(32): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Order.c(35): Notify: Transaction "UC01_TR05_Payment_Details" started.
+Order.c(39): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+Order.c(39): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Order.c(39): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Order.c(39): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Order.c(39): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Order.c(39): Notify: Parameter Substitution: parameter "flightVal" =  "201;437;11/12/2019"
+Order.c(39): Found resource "http://127.0.0.1:1080/WebTours/images/bookanother.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+Order.c(39): Registered web_reg_find successful for "Text=<font color="white"><b>JojoBean's Flight Invoice</b></font>" (count=1)  	[MsgId: MMSG-26364]
+Order.c(39): web_submit_data("reservations.pl_3") was successful, 3279 body bytes, 658 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Order.c(69): Notify: Transaction "UC01_TR05_Payment_Details" ended with a "Pass" status (Duration: 0.1380 Wasted Time: 0.0331).
+Order.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Order.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Order.c(76): Notify: Transaction "UC01_TR06_Itinerary" started.
+Order.c(78): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Order.c(78): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Order.c(78): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Order.c(78): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+Order.c(78): Notify: Parameter Substitution: parameter "Port" =  "1080"
+Order.c(78): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Order.c(78): Detected non-resource "http://127.0.0.1:1080/cgi-bin/itinerary.pl" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Order.c(78): Resource "http://127.0.0.1:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Order.c(78): Found resource "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Order.c(78): Resource "http://127.0.0.1:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Order.c(78): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Order.c(78): Found resource "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Order.c(78): Found resource "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Order.c(78): Registered web_reg_find successful for "Text='s Flight Transaction Summary</B></color></TD></TR>" (count=1)  	[MsgId: MMSG-26364]
+Order.c(78): web_url("Itinerary Button") was successful, 13775 body bytes, 1616 header bytes, 51 chunking overhead bytes  	[MsgId: MMSG-26385]
+Order.c(88): Notify: Transaction "UC01_TR06_Itinerary" ended with a "Pass" status (Duration: 0.2217 Wasted Time: 0.0389).
+Ending action Order.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(3): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_end.c(3): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_end.c(6): Notify: Transaction "UC01_TR07_Logout" started.
+vuser_end.c(8): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+vuser_end.c(8): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_end.c(8): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_end.c(8): Notify: Parameter Substitution: parameter "Host" =  "127.0.0.1"
+vuser_end.c(8): Notify: Parameter Substitution: parameter "Port" =  "1080"
+vuser_end.c(8): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+vuser_end.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+vuser_end.c(8): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+vuser_end.c(8): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(8): Registered web_reg_find successful for "Text=If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now" (count=1)  	[MsgId: MMSG-26364]
+vuser_end.c(8): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_end.c(18): Notify: Transaction "UC01_TR07_Logout" ended with a "Pass" status (Duration: 0.1650 Wasted Time: 0.0322).
+Ending action vuser_end.
+Vuser Terminated.

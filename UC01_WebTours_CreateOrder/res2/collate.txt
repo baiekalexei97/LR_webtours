@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\student\Documents\UC01_WebTours_CreateOrder\Scenario1\Scenario1.lrs
+Completed=0
