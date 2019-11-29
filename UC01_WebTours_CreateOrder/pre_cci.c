@@ -1,4 +1,4 @@
-# 1 "c:\\users\\student\\documents\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c"
+# 1 "c:\\users\\student\\documents\\lr_webtours\\lr_webtours\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\student\\documents\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
+# 1 "c:\\users\\student\\documents\\lr_webtours\\lr_webtours\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\student\\documents\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
+# 2 "c:\\users\\student\\documents\\lr_webtours\\lr_webtours\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
 
 # 1 "globals.h" 1
 
@@ -2583,7 +2583,7 @@ void
  
 
 
-# 3 "c:\\users\\student\\documents\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
+# 3 "c:\\users\\student\\documents\\lr_webtours\\lr_webtours\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
@@ -2636,7 +2636,7 @@ vuser_init()
 	lr_end_transaction("UC01_TR01_Login",2);
 	return 0;
 }
-# 4 "c:\\users\\student\\documents\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
+# 4 "c:\\users\\student\\documents\\lr_webtours\\lr_webtours\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
 
 # 1 "Search.c" 1
 Search(){
@@ -2655,6 +2655,18 @@ Search(){
 	                   "Ord=All",
 	                   "LAST"
 	);
+	web_reg_save_param("seatPrefs",	                   
+	                   "LB=name=\"seatPref\" value=\"",
+	                   "RB=\" />",
+	                   "Ord=All",
+	                   "LAST"
+	);
+	web_reg_save_param("seatTypes",	                   
+	                   "LB=name=\"seatType\" value=\"",
+	                   "RB=\" />",
+	                   "Ord=All",
+	                   "LAST"
+	);
 	
 	lr_start_transaction("UC01_TR02_Flights");
 
@@ -2669,6 +2681,9 @@ Search(){
 		"LAST");
 
 	lr_end_transaction("UC01_TR02_Flights",2);
+	
+	lr_save_string(lr_paramarr_random("seatPrefs"),"seatPref");
+	lr_save_string(lr_paramarr_random("seatTypes"),"seatType");
 		
 	City1 = lr_paramarr_random("Cities");
 	City2 = lr_paramarr_random("Cities");
@@ -2719,7 +2734,7 @@ Search(){
 	lr_end_transaction("UC01_TR03_Find_Flight",2);
 	return 0;
 }
-# 5 "c:\\users\\student\\documents\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
+# 5 "c:\\users\\student\\documents\\lr_webtours\\lr_webtours\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
 
 # 1 "Order.c" 1
 Order()
@@ -2814,7 +2829,7 @@ Order()
 
 	return 0;
 }
-# 6 "c:\\users\\student\\documents\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
+# 6 "c:\\users\\student\\documents\\lr_webtours\\lr_webtours\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
@@ -2837,5 +2852,5 @@ vuser_end()
 	lr_end_transaction("UC01_TR07_Logout",2);
 	return 0;
 }
-# 7 "c:\\users\\student\\documents\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
+# 7 "c:\\users\\student\\documents\\lr_webtours\\lr_webtours\\uc01_webtours_createorder\\\\combined_UC01_WebTours_CreateOrder.c" 2
 

@@ -14,6 +14,18 @@ Search(){
 	                   "Ord=All",
 	                   LAST
 	);
+	web_reg_save_param("seatPrefs",	                   
+	                   "LB=name=\"seatPref\" value=\"",
+	                   "RB=\" />",
+	                   "Ord=All",
+	                   LAST
+	);
+	web_reg_save_param("seatTypes",	                   
+	                   "LB=name=\"seatType\" value=\"",
+	                   "RB=\" />",
+	                   "Ord=All",
+	                   LAST
+	);
 	
 	lr_start_transaction("UC01_TR02_Flights");
 
@@ -28,6 +40,9 @@ Search(){
 		LAST);
 
 	lr_end_transaction("UC01_TR02_Flights",LR_AUTO);
+	
+	lr_save_string(lr_paramarr_random("seatPrefs"),"seatPref");
+	lr_save_string(lr_paramarr_random("seatTypes"),"seatType");
 		
 	City1 = lr_paramarr_random("Cities");
 	City2 = lr_paramarr_random("Cities");
